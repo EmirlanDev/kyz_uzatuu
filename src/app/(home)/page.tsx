@@ -5,6 +5,7 @@ import Date from "./components/Date";
 import Time from "./components/Time";
 import Map from "./components/Map";
 import Form from "./components/Form";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Time />
       <Map />
       <Form />
+      <Footer />
     </>
   );
 }
