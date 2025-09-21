@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="flex gap-2 items-center">
           {/* Instagram */}
           <Link
-            href="https://www.instagram.com/p/DOnf2SFCJb0/?igsh=MXVsYzg4c2RveTQzZA=="
+            href="https://www.instagram.com/okeans_studio/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
