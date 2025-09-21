@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-black fixed z-50 bottom-0 w-[100%]">
       <div className="flex justify-between items-center px-[20px] py-[10px]">
-        <Image className="w-[45px]" src={profile} alt="profile" />
+        <Image className="w-[45px] rounded-full" src={profile} alt="profile" />
 
         <p className="text-[12px] font-bold text-white whitespace-nowrap">
           Ушундай сайттар
@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="flex gap-2 items-center">
           {/* Instagram */}
           <Link
-            href="https://instagram.com/emirlan.amangeldiev"
+            href="https://www.instagram.com/p/DOnf2SFCJb0/?igsh=MXVsYzg4c2RveTQzZA=="
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
@@ -56,7 +56,7 @@ export default function Footer() {
 
           {/* WhatsApp */}
           <Link
-            href="https://wa.me/996707233727"
+            href="https://wa.me/996995102180 "
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp"
