@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+:root {
+  --font-lobster: "Lobster", cursive;
+  --font-dancing-script: "Dancing Script", cursive;
+  --font-pacifico: "Pacifico", cursive;
+  --font-satisfy: "Satisfy", cursive;
+  --font-great-vibes: "Great Vibes", cursive;
+  --font-allura: "Allura", cursive;
+  --font-kaushan: "Kaushan Script", cursive;
+  --font-courgette: "Courgette", cursive;
+  --font-alex-brush: "Alex Brush", cursive;
+  --font-parisienne: "Parisienne", cursive;
+  --font-shadows: "Shadows Into Light", cursive;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url("../assets/bodyBack.png"); /* путь к картинке */
+  background-size: cover; /* растянуть на весь экран */
+  background-position: center; /* центрировать */
+  background-repeat: no-repeat; /* без повторов */
+  background-attachment: fixed; /* 🔥 фон фиксированный */
+  font-family: var(--font-lobster);
+}
+
+.container {
+  max-width: 420px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container2 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gradient {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: #000000;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.27) 53%
+  );
+}
+
+.hero-text,
+.ns {
+  font-family: var(--font-great-vibes);
+}
+
+.spin {
+  animation: spin linear 15s infinite;
+}
+
+.second {
+  background: url(../assets/dateSpin.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 47px;
+  height: 47px;
+}
+
+.time {
+  background: url(../assets/timesImg.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.map {
+  background: url(../assets/spinImg.png) no-repeat center;
+  background-size: 90%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
