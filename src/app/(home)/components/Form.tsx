@@ -41,7 +41,7 @@ export default function Form() {
         <form
           data-aos="flip-left"
           onSubmit={handleSubmit}
-          className="w-full max-w-md space-y-6 rounded-xl bg-[#ffffff7d] p-6 shadow-lg mx-auto"
+          className="w-full max-w-md space-y-6 rounded-xl bg-[#ffffff44] p-6 shadow-lg mx-auto"
         >
           <h1 className="text-center text-[18px] font-medium">
             Анкетаны <span className="font-semibold">10.10.25</span> нa чейин
@@ -65,7 +65,7 @@ export default function Form() {
 
           <fieldset className="space-y-2">
             <legend className="mb-2 font-medium">
-              Бешик тоюбузга катышасыздарбы?
+              Кыз узатуу тоюбузга катышасыздарбы?
             </legend>
             <label className="flex items-center gap-2">
               <input
@@ -102,7 +102,7 @@ export default function Form() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full rounded bg-[#5d4334] py-3 text-white hover:bg-gray-800 disabled:opacity-50"
+            className="w-full rounded-full bg-[#5d4334] py-3 text-white hover:bg-gray-800 disabled:opacity-50"
           >
             {loading ? "Жөнөтүлүүдө..." : "Жөнөтүү!"}
           </button>

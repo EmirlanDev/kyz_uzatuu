@@ -94,7 +94,7 @@ export default function Footer() {
           </Link>
 
           {/* Telegram */}
-          <Link
+          {/* <Link
             href="https://t.me/Emirlan_FrontEndDev"
             target="_blank"
             rel="noopener noreferrer"
@@ -130,7 +130,7 @@ export default function Footer() {
                 </g>
               </g>
             </svg>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </footer>
